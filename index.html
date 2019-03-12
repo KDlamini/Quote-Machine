@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <title>Random Quotes Machine</title>
+  </head>
+  <body>
+      <div class="container bg-light"  id="quote-box">
+          <p id="text">If you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else.</p>
+          <p id="author">-Toni Morrison</p>
+
+          <div class="row justify-content-between">
+              <div>
+                <span>
+                  <a href="https://twitter.com/intent/tweet?text=" target="_blank" id="tweet-quote">
+                    <button class="badge" id="tweet-btn"><img src="twitter-logo.png" height="32px" width="30px"></button>
+                  </a>
+                </span>
+                <span>
+                  <a href="https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=" target="_blank" id="tumblr-quote">
+                    <button class="badge" id="tumblr-btn"><img src="tumblr-logo.svg" height="32px" width="30px"></button>
+                  </a>
+                </span>
+              </div>
+              <button class="btn btn-primary" id="new-quote" type="submit">New quote</button>
+          </div>
+      </div>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
